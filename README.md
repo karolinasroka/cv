@@ -1,6 +1,7 @@
 # Karolina Sroka CV
 
-A simple CV I made in React :)
+A simple CV I made in React:
+https://karolinasroka.github.io/cv/
 
 
 ## Scripts
