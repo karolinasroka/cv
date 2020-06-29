@@ -24,3 +24,11 @@ ul {
 li {
 	margin: 0.4em 0;
 }
+
+@media print {
+	@page {
+		// Print styling hack to increase page scale for Chrome
+		size: calc(210mm * 1.45) calc(297mm * 1.45);
+		margin: 11mm;
+	}
+}
