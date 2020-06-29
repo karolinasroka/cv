@@ -73,7 +73,8 @@ export default {
 		name: 'Karolina Sroka',
 		mail: 'karolina.sroka@outlook.com',
 		phone: '076-899 83 16',
-		linkedin: 'linkedin.com/in/karolina-sroka',
+		linkedin: 'karolina-sroka',
+		github: 'karolinasroka/cv',
 	},
 
 	languages: [

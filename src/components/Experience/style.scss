@@ -1,5 +1,9 @@
 .experience {
-	margin: 0 40px;
+	margin: 0 20px;
+
+	@media (min-width: 600px) {
+		margin: 0 40px;
+	}
 
 	h2,
 	h3 {
@@ -7,8 +11,15 @@
 	}
 
 	h2 {
-		border-bottom: 2px solid rgba(28, 134, 233, 0.5);
+		border-bottom: 2px solid #ad248d98;
 		margin-bottom: 0.5em;
+		margin-top: 30px;
+		text-align: center;
+
+		@media (min-width: 600px) {
+			text-align: left;
+			margin-top: 20px;
+		}
 	}
 
 	h3 {
@@ -25,10 +36,16 @@
 	}	
 
 	.date {
-		padding-top: 0.75em;
-		width: 180px;
-		color: rgb(28, 134, 233);
-		text-align: right;
+		padding-top: 0.95em;
+		width: 50px;
+		color: #6345a8;
+		text-align: center;
+		font-size: 0.9em;
+		
+		@media (min-width: 600px) {
+			width: 180px;
+			text-align: right;
+		}
 	}
 
 	.description-side {

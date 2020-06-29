@@ -1,24 +1,36 @@
 main {
-	display: flex;
+	display: block;
 
-	.name {
-		margin-left: 40px;
-		margin-bottom: 10px;
-		font-size: 50px;
-		font-weight: normal;
-		color: rgb(28, 134, 233); 
+	@media (min-width: 600px) {
+		display: flex;
 	}
 
 	.main-content {
 		max-width: 800px;
 		padding-bottom: 60px;
+
+		.name {
+			display: none;
+			margin-left: 40px;
+			margin-bottom: 10px;
+			font-size: 50px;
+			font-weight: normal;
+			color: #b81151; 
+	
+			@media (min-width: 600px) {
+				display: block;
+			}
+		}
 	}
 
 	.side-content {
 		padding: 0 20px;
 		flex: 0 0 300px;
-		
-		background: rgb(21, 104, 182);
-		color: white;
+		color: #222;
+
+		@media (min-width: 600px) {
+			color: #fff;
+			background: linear-gradient(#780206, #061161);
+		}
 	}
 }

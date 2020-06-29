@@ -1,8 +1,13 @@
 .skills {	
 	h2 {
 		margin: 0;
-		font-weight: 300;
+		font-weight: 700;
 		text-align: center;
-		border-bottom: 2px solid #fffa;
+		border-bottom: 2px solid #ad248d98;
+
+		@media (min-width: 600px) {
+			border-bottom: 2px solid #fffa;
+			font-weight: 300;
+		}
 	}
 }
