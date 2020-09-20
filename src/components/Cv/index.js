@@ -9,15 +9,16 @@ export const Cv = ({ data: { experience, work, education, skills, info, language
 	return (
 		<main>
 			<div className="side-content">
-				<Info info={info}/>
-				<Skills heading='Skills' skills={skills}/>
-				<Skills heading='Languages' skills={languages}/>
+				<Info info={info} />
+				<Skills heading='Skills' skills={skills} />
+				<Skills heading='Languages' skills={languages} />
 			</div>
 			<div className="main-content">
 				<h1 className='name'>{info.name}</h1>
-				<Experience heading='Work Experience' list={work}/>
-				<Experience heading='Experience' list={experience}/>
-				<Experience heading='Formal Education' list={education}/>
+				<p className='sub-text'>{info.subText}</p>
+				<Experience heading='Work Experience' list={work} />
+				<Experience heading='Experience' list={experience} />
+				<Experience heading='Formal Education' list={education} />
 			</div>
 		</main>
 	);

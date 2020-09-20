@@ -9,15 +9,24 @@ main {
 	padding-bottom: 40px;
 	
 	.name {
-		display: none;
 		margin-left: 40px;
 		margin-bottom: 10px;
 		font-size: 50px;
 		font-weight: normal;
 		color: #b81151; 
 
-		@media (min-width: 600px) {
-			display: block;
+		@media (max-width: 599px) {
+			display: none;
+		}
+	}
+
+	.sub-text {
+		margin: -10px 40px 30px;
+		color: #666;
+		font-style: italic;
+		
+		@media (max-width: 599px) {
+			display: none;
 		}
 	}
 }

@@ -15,8 +15,13 @@ export default {
 	experience: [
 		{
 			date: '2020',
-			title: 'React & Hooks',
-			description: 'Learning React and Hooks through online courses.',
+			title: 'Cosmo Piła Website using React with a CMS',
+			description: 'Made a new website for Cosmo Piła using React with Hooks, Gatsby and Strapi as an administrative backend CMS, where the client can log in and edit content of the page. Technologies used: JS, React, Hooks, Gatsby, Strapi, SASS, HTML5, Markdown, yarn, prettier, git, Linux/WSL2.',
+		},
+		{
+			date: '2020',
+			title: 'React CV',
+			description: 'Created my own CV using React with Hooks and publishing it on Github pages.',
 		},
 		{
 			date: '2018',
@@ -25,7 +30,7 @@ export default {
 		},
 		{
 			date: '2018',
-			title: 'Cosmo Kosmetyka Estetyczna & Makijaż Permanentny',
+			title: 'Cosmo Piła Website',
 			description: 'Designed and developed a responsive website. Technologies used: HTML5, SASS, JS, jQuery, Parcel, git, Linux/WSL.',
 		},
 		{
@@ -42,6 +47,11 @@ export default {
 
 	education: [
 		{
+			date: '2020',
+			title: 'ASP.NET – System development',
+			description: 'Intensive ASP.NET system development education at Lexicon in Linköping. Covering: C#, ASP.NET, MVC, SQL Server, HTML, JS, CSS, Angular, Bootstrap, software testing'
+		},
+		{
 			date: '2017 - 2018',
 			title: 'Applied Linguistics (English, German)',
 			description: 'at Stanisław Staszic University of Applied Sciences in Piła',
@@ -52,7 +62,7 @@ export default {
 			description: 'at Zespół Szkół nr 4 Rolnicze Centrum Kształcenia Ustawicznego w Wałczu',
 		},
 	],
-	
+
 	skills: [
 		'Semantic HTML5',
 		'Modern CSS',
@@ -60,6 +70,7 @@ export default {
 		'JavaScript',
 		'React & Hooks',
 		'jQuery',
+		'C#',
 		'PHP',
 		'Pimcore',
 		'Magento 2',
@@ -71,10 +82,11 @@ export default {
 
 	info: {
 		name: 'Karolina Sroka',
+		subText: 'Junior frontend developer with an eye for design, on the way to become a fullstack developer. :)',
 		mail: 'karolina.sroka@outlook.com',
 		phone: '076-899 83 16',
 		linkedin: 'karolina-sroka',
-		github: 'karolinasroka/cv',
+		github: 'karolinasroka',
 	},
 
 	languages: [
